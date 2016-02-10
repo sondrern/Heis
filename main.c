@@ -4,6 +4,14 @@
 
 int main() {
     elev_init();
+    
+    
+    elev_init();
+
+    elev_set_motor_direction(DIRN_UP);
+
+    elev_goto(3);
+
 
     printf("Press STOP button to stop elevator and exit program.\n");
 
